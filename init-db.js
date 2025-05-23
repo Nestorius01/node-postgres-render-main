@@ -1,6 +1,5 @@
 require("dotenv").config(); // Carga las variables de entorno desde .env
 const db = require("./db"); // Importa la conexión a la base de datos
-
 async function initDatabase() {
   try {
     // Crear tabla usuarios si no existe
